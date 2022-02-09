@@ -7,7 +7,19 @@ print("total is :",total)'''
 
 
 # calculating area
-pi = 3.14
+'''pi = 3.14
 r = int(input("enter radius: "))
 area = pi * r**2
-print("the area of a circle is: ",area)
+print("the area of a circle is: ",area)'''
+
+
+
+# DAY 2:
+a = int(input("enter A:"))
+b = int(input("enter B: "))
+if a > b:
+    print( "A is the largest")
+elif a < b:
+    print("B is the largest")
+else:
+    print(f"both A and B are equal: {a} == {b}")
