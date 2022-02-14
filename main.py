@@ -32,8 +32,20 @@ for i in range(1,11):
 
     #day4
     #set operation
-E = {0,3,4,5,6,8};
+'''E = {0,3,4,5,6,8};
 N = {1,2,5,7,8,9};
 print("union of E and N is",E|N)
 print('intersection of N and E is' ,E & N)
-print("difference of E and N is" ,E-N)
+print("difference of E and N is" ,E-N)'''
+
+#check for prime number within a giving range
+lower = int(input("enter your lower value:"))
+upper = int(input("enter your upper value: "))
+print("prime numbers between",lower, " and ", upper," is:")
+for num in range(lower,upper+1):
+    if num > 1:
+        for i in range(2,num):
+            if num%i==0:
+                break
+        else:
+            print(num)
