@@ -39,7 +39,7 @@ print('intersection of N and E is' ,E & N)
 print("difference of E and N is" ,E-N)'''
 
 #check for prime number within a giving range
-lower = int(input("enter your lower value:"))
+'''lower = int(input("enter your lower value:"))
 upper = int(input("enter your upper value: "))
 print("prime numbers between",lower, " and ", upper," is:")
 for num in range(lower,upper+1):
@@ -48,4 +48,13 @@ for num in range(lower,upper+1):
             if num%i==0:
                 break
         else:
-            print(num)
+            print(num)'''
+
+
+
+#day 6
+#print from 0 to 10
+i = 0
+for i in range(0,11):
+    print(i)
+
