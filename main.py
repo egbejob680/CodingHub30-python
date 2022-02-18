@@ -54,7 +54,24 @@ for num in range(lower,upper+1):
 
 #day 6
 #print from 0 to 10
-i = 0
+'''i = 0
 for i in range(0,11):
-    print(i)
+    print(i)'''
+
+
+
+
+    # functions in python
+def is_prime(number):
+    if number <= 1:
+        return False
+    for factor in range(2,number):
+        if number % factor == 0:
+            return False
+    return True
+def print_prime(n):
+    for number in range(5,60):
+        if is_prime(number):
+            print("%dis prime"%number)
+print(is_prime(5))
 
